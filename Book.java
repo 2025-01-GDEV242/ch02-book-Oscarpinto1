@@ -60,7 +60,11 @@ class Book
         {
         refNumber= ref;
     }
-    
+    else
+    {
+        System.out.println("Reference number must be at least 3 characters");
+    }
+
         
         
     }
